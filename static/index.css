@@ -1,0 +1,86 @@
+.hidden{
+    display: none;
+}
+
+body {
+    display: block;
+
+}
+
+.button_div {
+    /*position: absolute;*/
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 40%;
+    margin-right: 35%;
+    width: auto;
+    height: 50px;
+}
+
+.options {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.options button{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: auto;
+    width: auto;
+    font-size: 20px;
+    background-color: darksalmon;
+}
+
+
+.theForm{
+    position: relative;
+    width: auto;
+    top: 100px;
+    /*left: 500px;*/
+    margin-left: 45%;
+}
+
+.table_data{
+    position: relative;
+    width: auto;
+    top:100px;
+    margin-left: 30%;
+    margin-top: 30px;
+}
+
+table, th, td {
+    border: 2px solid darksalmon;
+}
+
+th, td {
+    width: 100px;
+    text-align: center;
+}
+
+
+.edit_button{
+    background-color: lightgreen;
+    border: none
+}
+
+.delete_button{
+    background-color: lightcoral;
+    border: none;
+}
+
+.save_button{
+    background-color: lightgreen;
+    border: none;
+}
+
+
+.button_div button{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: auto;
+    width: auto;
+    font-size: 20px;
+    background-color: darksalmon;
+    margin: 5px 10px 10px 10px;
+
+}

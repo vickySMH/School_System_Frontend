@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../static/index.css">
+    <title>Teacher Management</title>
+</head>
+<body>
+    <div class="button_div">
+        <a href="index.html"><button>Home</button></a>
+        <button onclick="displayTeachers()" >View teachers</button>
+        <button onclick="showDiv()">Add teacher</button>
+        <div id="searchById">
+            <input id="searchTeacherById" type="number" placeholder="Id">
+            <button onclick="searchTeacherById()">Search</button>
+        </div>
+        <!--<div id="searchByName">-->
+        <!--    <input id="searchTeacherByName" type="text" placeholder="Name">-->
+        <!--    <button onclick="searchTeacherByName()">Search</button>-->
+        <!--</div>-->
+    </div>
+
+
+    <div class="hidden theForm">
+        <form id="addTeacherForm">
+            <label>Name: </label>
+            <input name="name" id="name" type="text">
+            <br>
+            <br>
+            <label>Email: </label>
+            <input name = "email" id="email" type="email">
+            <br>
+            <button class="save_button" type="submit" onclick="addTeacher()">Save</button>
+        </form>
+    </div>
+
+    <div class="hidden table_data" id="teachers"></div>
+    <div id="specificTeacher"></div>
+    <!--<div id="teacherByName"></div>-->
+
+    <script src="Js/Teacher.js"></script>
+
+</body>
+</html>
